@@ -1,6 +1,6 @@
 # Cytotoxic Cataclysm
 
-Embark on an adrenaline-fueled journey in "Cytotoxic Cataclysm," a dynamic top-down shooter where you play as a valiant immune cell. The game's universe is under siege by harmful microbes that have kidnapped your friend. Navigate through the body's landscapes, engaging in intense battles against various AI-driven enemies to rescue your ally.
+Embark on an adrenaline-fueled journey in [Cytotoxic Cataclysm](https://cytotoxiccataclysm.itch.io/cytotoxic-cataclysm), a dynamic top-down shooter where you play as a valiant immune cell. The game's universe is under siege by harmful microbes that have kidnapped your friend. Navigate through the body's landscapes, engaging in intense battles against various AI-driven enemies to rescue your ally.
 
 As you progress, the story unravels, revealing new challenges and abilities that enhance your gameplay experience. "Cytotoxic Cataclysm" offers a blend of captivating visuals and fluid action, immersing players in a microscopic world of epic proportions. The game supports multiple control schemes, including mouse, keyboard, and PlayStation controllers, catering to different play styles.
 
