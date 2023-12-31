@@ -1,7 +1,6 @@
 # Cytotoxic Cataclysm
-**Video Game Programming Term Project**
 
-## Team 3
+## Collaborators
 - Keigo Lee
 - Nick Zhang
 - Nitahi Escolar Bach
@@ -215,12 +214,6 @@ the linked branch of the task can be retrieved.
 		</tr>
 	</thead>
 </table>
-
-## Alignment with development plan
-We had the following discrepancies in Milestone 4 compared to the development plan in the original proposal:
-* [Creative][advanced][7][2D dynamic shadows] We did not do this because it does not fit in our game
-
-Everything else follows the proposal
 
 ## Music
 "Voxel Revolution" Kevin MacLeod (incompetech.com)  
