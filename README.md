@@ -1,6 +1,6 @@
 # Cytotoxic Cataclysm
 
-![Cytotoxic Cataclysm](https://cytotoxiccataclysm.itch.io/cytotoxic-cataclysm)
+Download Link: https://cytotoxiccataclysm.itch.io/cytotoxic-cataclysm
 
 ## Overview
 
