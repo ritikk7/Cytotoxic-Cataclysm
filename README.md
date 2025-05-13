@@ -1,12 +1,66 @@
 # Cytotoxic Cataclysm
 
-Embark on an adrenaline-fueled journey in [Cytotoxic Cataclysm](https://cytotoxiccataclysm.itch.io/cytotoxic-cataclysm), a dynamic top-down shooter where you play as a valiant immune cell. The game's universe is under siege by harmful microbes that have kidnapped your friend. Navigate through the body's landscapes, engaging in intense battles against various AI-driven enemies to rescue your ally.
+![Cytotoxic Cataclysm](https://cytotoxiccataclysm.itch.io/cytotoxic-cataclysm)
 
-As you progress, the story unravels, revealing new challenges and abilities that enhance your gameplay experience. "Cytotoxic Cataclysm" offers a blend of captivating visuals and fluid action, immersing players in a microscopic world of epic proportions. The game supports multiple control schemes, including mouse, keyboard, and PlayStation controllers, catering to different play styles.
+## Overview
 
-Prepare for an action-packed adventure that combines strategy, skill, and a gripping narrative in the fight against a microscopic menace!
+Cytotoxic Cataclysm is an intense top-down shooter that plunges you into a microscopic world of epic proportions. Play as a valiant immune cell on a mission to rescue your kidnapped friend from harmful microbes that have invaded the body's ecosystem.
 
-## Collaborators
+## Key Features
+
+- **Dynamic Combat System**
+  - Fluid shooting mechanics with upgradeable weapons
+  - Strategic melee combat with sword abilities
+  - Powerful dash movement system for tactical gameplay
+  - Multiple enemy types with unique behaviors and attack patterns
+
+- **Progressive Ability System**
+  - Unlock and master new abilities as you progress
+  - Health boost system for increased survivability
+  - Weapon upgrades including enhanced bullet properties
+  - Special dash abilities for advanced mobility
+
+- **Epic Boss Battles**
+  - Face off against massive bacteriophage bosses
+  - Unique boss phases and attack patterns
+  - Intense battle scenarios with story-driven encounters
+  - Strategic weak points and mechanics
+
+- **Rich Game World**
+  - Beautifully crafted microscopic environments
+  - Dynamic enemy spawning system
+  - Interactive elements like health cysts and ability chests
+  - Atmospheric visual effects and animations
+
+- **Polished User Experience**
+  - Comprehensive tutorial system
+  - Multiple difficulty modes for all skill levels
+  - Save/Load system for progress tracking
+  - Support for keyboard/mouse and PlayStation controller inputs
+
+## Controls
+
+### Keyboard & Mouse
+- WASD - Movement
+- Left Mouse Button - Shoot
+- Right Mouse Button - Sword Attack
+- Left Shift - Dash
+- ESC - Pause Menu
+
+### PlayStation Controller
+- Left Stick - Movement
+- R2 - Shoot
+- R1 - Sword Attack
+- L1 - Dash
+- Options Button - Pause Menu
+
+## Game Modes
+
+- **Regular Mode** - The full challenge with standard enemy health and spawn rates
+- **Easy Mode** - A more accessible experience with reduced enemy health and adjusted difficulty
+
+## Development Team
+
 - Keigo Lee
 - Nick Zhang
 - Nitahi Escolar Bach
@@ -14,226 +68,23 @@ Prepare for an action-packed adventure that combines strategy, skill, and a grip
 - Ritik Keswani
 - Shirley Du
 
-## Implemented Features
-Note: By using the ticket number from the [<u>Task
-Board</u>](https://github.students.cs.ubc.ca/orgs/CPSC427-2023W-T1/projects/3/views/1),
-the linked branch of the task can be retrieved.
-<table>
-	<colgroup>
-		<col style="width: 15%" />
-		<col style="width: 25%" />
-		<col style="width: 59%" />
-	</colgroup>
-	<thead>
-		<tr class="header">
-			<th><strong>Category</strong></th>
-			<th><strong>Task</strong></th>
-			<th><strong>Details</strong></th>
-		</tr>
-		<tr>
-			<th rowspan="2">Stability</th>
-			<th>
-			<p>Prior missed milestone features & bug fixes</p>
-			</th>
-			<th><ul>
-			<li>
-			<p>No missing features or bugs from the prior milestone</p>
-			</li>
-			</th>
-		</tr>
-		<tr>
-			<th>
-			<p>No crashes, glitches, unpredictable behaviour </p>
-			</th>
-			<th><ul>
-			<li>
-			<p>This is a collaborative result from code reviews</p>
-			</li>
-			<li>
-			<p>Bug Ticket #159</p>
-			</li>
-			</th>
-		</tr>
-		<tr>
-			<th rowspan="1">Playability</th>
-			<th>
-			<p>5 minutes of non-repetitive gameplay</p>
-			</th>
-			<th><ul>
-			<li>
-			<p>This is a collaborative result from completing all other features</p>
-			</li>
-			</th>
-		</tr>
-		<tr>
-			<th rowspan="2">User Experience</th>
-			<th>
-			<p>Comprehensive tutorial</p>
-			</th>
-			<th><ul>
-			<li>
-			<p>Ticket #150 (PR #177)</p>
-			</li>
-			<li>
-			<p>Tutorials are displayed at the beginning and when the player unlocks an ability</p>
-			</li>
-			<li>
-			<p>Different tutorials for keyboard and mouse/controller</p>
-			</li>
-			<li>
-			<p>Textures in data/textures/tutorial</p>
-			</li>
-			</ul>
-			</th>
-		</tr>
-		<tr class="odd">
-			<th>
-			<p>Optimize user interaction and REPORT it</p>
-			</th>
-			<th><ul>
-			<li>
-			<p>See docu/Milestone 4/User Testing Report.pdf</p>
-			</li>
-			<li>
-			<p>More details are included in the document</p>
-			</li>
-		</tr>
-		<tr>
-			<th rowspan="7">Creative</th>
-			<th>[25][basic][Game balance]</th>
-			<th><ul>
-			<li>
-			<p>See docu/Milestone 4/Game Balance.pdf</p>
-			</li>
-			<li>
-			<p>More details are included in the document</p>
-			</li>
-			</ul>
-			</th>
-		</tr>
-		<tr>
-			<th>[advanced][articulated motion][12]</th>
-			<th><ul>
-			<li>
-			<p>Ticket #92</p>
-			</li>
-			<li>
-			<p>Boss have legs that moves to point towards the player</p>
-			</li>
-			<li>
-			<p>Handled in AISystem::move_articulated_part</p>
-			</li>
-			</ul>
-			</th>
-		</tr>
-		<tr>
-			<th>[Creative][Swarm behavior][16] </th>
-			<th><ul>
-			<li>
-			<p>Pull Request #169</p>
-			</li>
-			<li>
-			<p>Nearby enemies repelling each other (Except bosses and yellow enemies)</p>
-			</li>
-			<li>
-			<p>Handled in ai_system.cpp, line 64 - 84</p>
-			</li>
-			</ul>
-			</th>
-		</tr>
-		<tr>
-			<th>[advanced/basic][story elements][27]</th>
-			<th><ul>
-			<li>
-			<p>Ticket #97 (PR #181)
-</p>
-			</li>
-			<li>
-			<p>Added Dialogs at the beginning and before and after a boss fight to tell the story
-</p>
-			</li>
-			<li>
-			<p>sub_systems/dialog_system.cpp handles the display and interaction logic of all these dialogs</p>
-			</li>
-			</ul>
-			</th>
-		</tr>
-		<tr>
-			<th>Start and pause menus</th>
-			<th><ul>
-			<li>
-			<p>Ticket #43 (PR #135)</p>
-			</li>
-			<li>
-			<p>Add start and pause menu to the game. Supports start, save/load, resume, mute/unmute, exit, and difficulty selection.
-</p>
-			</li>
-			<li>
-			<p>Can be navigated by mouse or controller
-</p>
-			</li>
-			<li>
-			<p>Handled by sub_systems/menu_system.cpp
-</p>
-			</li>
-			</ul>
-			</th>
-		</tr>
-		<tr>
-			<th>PS5 Controller support</th>
-			<th><ul>
-			<li>
-			<p>PR #166 & PR #185
-</p>
-			</li>
-			<li>
-			<p>Add support for using PS5 controller to play the game</p>
-			</li>
-			<li>
-			<p>Supports all the interactions as keyboard and mouse, including regular gameplay, menu navigation, and skipping tutorial/dialogs
-</p>
-			</li>
-			<li>
-			<p>Handled by WorldSystem::step_controller, WorldSystem::menu_controller, WorldSystem::control_direction, etc.
-</p>
-			</li>
-			</ul>
-			</th>
-		</tr>
-		<tr>
-			<th>[advanced][26][Numerou sophisticated integrated assets]</th>
-			<th><ul>
-			<li>
-			<p>All the assets in the game are hand made for our game except for the chest and the sword texture. Including enemies, backgrounds, bosses, player</p>
-			</li>
-			<li>
-			<p>All the textures under data/textures are in the same art style</p>
-			</li>
-			<li>
-			<p>The music and sound effects are credited in our credits. They also go with the feel of the game.</p>
-			</li>
-			<li>
-			<p>PR #189 Music changes depending on scenarios (menu, main game, boss)</p>
-			</li>
-			</ul>
-			</th>
-		</tr>
-	</thead>
-</table>
+## Credits
 
-## Music
-"Voxel Revolution" Kevin MacLeod (incompetech.com)  
-Licensed under Creative Commons: By Attribution 4.0 License  
-http://creativecommons.org/licenses/by/4.0/  
-Menu Music by Juhani Junkala:  
-https://opengameart.org/content/5-chiptunes-action  
-Boss Music from:  
-https://opengameart.org/content/battle-theme-a  
+### Music
+- "Voxel Revolution" by Kevin MacLeod (incompetech.com)
+  Licensed under Creative Commons: By Attribution 4.0 License
+  http://creativecommons.org/licenses/by/4.0/
+- Menu Music by Juhani Junkala
+  https://opengameart.org/content/5-chiptunes-action
+- Boss Battle Theme
+  https://opengameart.org/content/battle-theme-a
 
-## Additional Art 
-Sound Effects: The Essential Retro Video Game Sound Effects Collection by Juhani Junkala  
-https://opengameart.org/content/512-sound-effects-8-bit-style  
-Keyboard Sprite by: xPheRe  
-https://xphere.itch.io/pixel-keyboard-layout  
-Joystick Sprite by: Juliano (lightUP)  
-https://julianoferreiradelima.itch.io/gamepads-assets-pixelart  
+### Sound Effects
+- The Essential Retro Video Game Sound Effects Collection by Juhani Junkala
+  https://opengameart.org/content/512-sound-effects-8-bit-style
+
+### Additional Art Assets
+- Keyboard Sprite by xPheRe
+  https://xphere.itch.io/pixel-keyboard-layout
+- Joystick Sprite by Juliano (lightUP)
+  https://julianoferreiradelima.itch.io/gamepads-assets-pixelart
